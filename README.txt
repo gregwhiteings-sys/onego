@@ -76,7 +76,7 @@ For a first client release, distribute the signed `app-release.apk`. If someone 
 
 ## Build locally (optional)
 
-Install JDK 17 and Android SDK platform 37, then run:
+Install JDK 17 and Android SDK platform 36, then run:
 
 ```bash
 gradle --no-daemon assembleDebug

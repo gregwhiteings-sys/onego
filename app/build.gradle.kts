@@ -13,7 +13,7 @@ val hasReleaseSigning = !signingStore.isNullOrBlank() &&
 
 android {
     namespace = "com.onego.backload"
-    compileSdk = 37
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.onego.backload"
