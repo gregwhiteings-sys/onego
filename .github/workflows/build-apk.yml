@@ -31,7 +31,7 @@ jobs:
           gradle-version: '9.6.0'
 
       - name: Install Android SDK platform
-        run: sdkmanager "platforms;android-37" "build-tools;36.0.0"
+        run: sdkmanager "platforms;android-36" "build-tools;36.0.0"
 
       - name: Build debug APK
         run: gradle --no-daemon assembleDebug -PONEGO_VERSION_CODE="$GITHUB_RUN_NUMBER" -PONEGO_VERSION_NAME="1.0.$GITHUB_RUN_NUMBER"
